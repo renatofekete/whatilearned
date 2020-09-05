@@ -1,0 +1,31 @@
+/*******************
+*   BASE
+********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-family;
+  height: 100%;
+  font-size: 16px;
+}
+body {
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+input,
+textarea {
+  font-family: $font-family;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}

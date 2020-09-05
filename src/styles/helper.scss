@@ -1,0 +1,26 @@
+// Need to add options to gatsby-config for this to work in modules
+// Color pallete https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=2e354f&secondary.color=f85830
+
+$primary-color: #3f51b5;
+$font-color: #6e6d7a;
+
+$font-family: "Poppins", sans-serif;
+
+$width: 675px;
+
+// Mixins
+@mixin container {
+  margin: 0 2rem;
+  @media (min-width: $width) {
+    margin: 0 auto;
+    width: $width;
+    max-width: $width;
+  }
+}
+@mixin pad-2-0 {
+  padding: 2rem 0;
+}
+
+@mixin spacing {
+  margin-bottom: 1.2rem;
+}

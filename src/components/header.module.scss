@@ -1,0 +1,9 @@
+.header-inner {
+  @include pad-2-0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo a {
+    color: #333;
+  }
+}

@@ -1,0 +1,39 @@
+html {
+  color: $font-color;
+}
+
+// NO SCROLL
+.no-scroll {
+  overflow: hidden;
+}
+//* WRAPPERS
+
+.wrapper {
+  &--green {
+    background: green;
+  }
+}
+
+//* LINKS
+a {
+  color: $primary-color;
+  font-weight: 600;
+}
+a[target="_blank"] .material-icons {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
+
+// BLOG
+.blog-list li {
+  margin-bottom: 1.2rem;
+}

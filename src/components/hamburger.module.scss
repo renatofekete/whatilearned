@@ -1,0 +1,7 @@
+.material-icons.hamburger {
+  color: #333;
+  z-index: 20;
+  @media (min-width: 1000px) {
+    display: none;
+  }
+}
