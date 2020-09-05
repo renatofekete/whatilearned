@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Img from "gatsby-image"
+//import Img from "gatsby-image"
 
 import blogStyle from "./blog.module.scss"
 
@@ -33,6 +33,16 @@ const Blog = props => {
     description: `${props.data.markdownRemark.frontmatter.description}`,
     image: `${props.data.markdownRemark.frontmatter.featuredImage.childImageSharp.fluid.src}`,
   }
+  /**
+   * 
+   *     <Img
+          fluid={
+            props.data.markdownRemark.frontmatter.featuredImage.childImageSharp
+              .fluid
+          }
+          alt="y"
+        />
+   */
   return (
     <Layout>
       <Seo seoData={seoData} />
@@ -45,12 +55,13 @@ const Blog = props => {
             <small>On: {props.data.markdownRemark.frontmatter.date}</small>
           </p>
         </header>
-        <Img
-          fluid={
+
+        <img
+          src={
             props.data.markdownRemark.frontmatter.featuredImage.childImageSharp
-              .fluid
+              .fluid.src
           }
-          alt="y"
+          alt=""
         />
         <div
           className={blogStyle.content}
