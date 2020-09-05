@@ -11,6 +11,7 @@
   transition: 0.3s;
   width: 100vw;
   background: $primary-color;
+  z-index: 1;
 
   @media (min-width: 1000px) {
     flex-direction: row;
