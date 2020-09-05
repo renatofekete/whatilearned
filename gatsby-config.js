@@ -11,7 +11,7 @@ module.exports = {
     author: "Renato Fekete",
     description: "Blog about Gatsby/Frontend stuff",
     image: `/images/Logo-WIL.png`,
-    url: `http://localhost:8000`,
+    url: `https://festive-austin-b0b7d5.netlify.app`,
     social: {
       twitter: "https://twitter.com/renato_fekete",
       linkedin: "https://www.linkedin.com/in/renato-fekete/",
