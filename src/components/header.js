@@ -18,11 +18,10 @@ const Header = () => {
   return (
     <header className={headerStyle.headerOuter}>
       <div className={`container ${headerStyle.headerInner}`}>
-        <h4 className={headerStyle.logo}>
+        <p className={headerStyle.logo}>
           {" "}
           <Link to="/">{data.site.siteMetadata.title}</Link>
-        </h4>
-
+        </p>
         <Hamburger />
       </div>
     </header>
